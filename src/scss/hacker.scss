@@ -1,0 +1,394 @@
+// ----------------------
+//     Hacker Style
+// ----------------------
+
+$mainBackground: #000000;
+$messengerNavbar: #000;
+$conversationOthers: #000;
+$conversationMyself: #0f0;
+$conversationOthersClick: rgba(0, 255, 0, 0.5);
+$searchBar: #0f0;
+$conversationText: #0f0;
+$black: #000;
+$green: #0f0;
+$white: #000000;
+$white_30: #0f0;
+$white_70: #0f0;
+$messageInputField: #0f0;
+
+body.hackerTh ._nd_ ._hh7 a {
+    color: rgba(0, 0, 0, 0.5);
+    font-style: italic;
+}
+
+// Main background
+body.hackerTh ._4sp8, body.hackerTh ._4_j5, body.hackerTh ._1ht1, body.hackerTh ._5l37, body.hackerTh ._4eby,
+body.hackerTh ._2y8_, body.hackerTh ._5t4c, body.hackerTh ._nd_ ._3058._15gf {
+    background-color: $mainBackground !important;
+    font-family: monospace;
+
+    @include transition($backgroundColorTransition);
+}
+
+// Messenger Navbar
+body.hackerTh ._5742, body.hackerTh ._36ic {
+    background-color: $messengerNavbar !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+body.hackerTh ._1ht1._1ht2 {
+    background-color: $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+//NAVBAR text
+body.hackerTh ._3oh-, body.hackerTh ._1tqi {
+    color: $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+// Conversation - others
+body.hackerTh ._hh7:active, body.hackerTh ._haj, body.hackerTh ._5i_d {
+    background-color: $conversationOthers !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+body.hackerTh ._hh7 {
+    background-color: $black !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+body.hackerTh ._hh7:active, body.hackerTh ._-5k ._hh7 {
+    border: 1px solid $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+body.hackerTh ._29_7:last-of-type ._3058._52mr:last-of-type, body.hackerTh ._29_7:last-of-type ._3058._52mr:last-of-type ._4br2, body.hackerTh ._29_7:last-of-type ._3058:last-of-type ._52mr:last-of-type, body.hackerTh ._29_7:first-of-type ._3058._52mr:first-of-type, body.hackerTh ._29_7:first-of-type ._3058._52mr:first-of-type ._mxz, body.hackerTh ._29_7:first-of-type ._3058:first-of-type ._52mr:first-of-type {
+    border: 1px solid $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+// Conversation - myself
+body.hackerTh ._nd_ ._hh7:active, body.hackerTh ._nd_._-5k ._hh7, body.hackerTh ._nd_ ._3058 {
+    background-color: $conversationMyself !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+// Conversation others message click
+body.hackerTh ._hh7:active {
+    background-color: $conversationOthersClick !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+// Search bar
+body.hackerTh ._5iwm ._58al, body.hackerTh ._55sg ._kv1 input {
+    background-color: $searchBar !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+// All texts
+body.hackerTh ._ih3, body.hackerTh ._364g, body.hackerTh ._3tl0, body.hackerTh ._497p,
+body.hackerTh ._5743, body.hackerTh ._1ht7, ._3tkx, body.hackerTh ._3tkz, body.hackerTh ._kck, body.hackerTh ._kcm,
+body.hackerTh ._kck ._58al, body.hackerTh ._4jgs, body.hackerTh ._5rh4,
+body.hackerTh ._14-7 ._58ah ._58al, body.hackerTh ._2y8z, body.hackerTh ._10w4,
+body.hackerTh ._209g, body.hackerTh ._4rpj,
+body.hackerTh ._2jnt, body.hackerTh ._3eus, body.hackerTh ._2jnv, body.hackerTh ._2jnx,
+body.hackerTh ._2jnz, body.hackerTh ._2jnx body.hackerTh ._58al, body.hackerTh ._llq, body.hackerTh ._36zg,
+body.hackerTh ._1n-e, body.hackerTh ._4eb-, body.hackerTh ._19jt, body.hackerTh ._374c, body.hackerTh ._1ps0,
+body.hackerTh ._1pr_, body.hackerTh .__rm + .uiInputLabelLabel, body.hackerTh ._58ak input {
+    color: $conversationOthers !important;
+
+    @include transition($colorTransition);
+}
+
+// Sidebar Name. description active
+body.hackerTh ._1ht2 ._1ht6, body.hackerTh ._1ht2 ._1htf {
+    color: $black !important;
+
+    @include transition($colorTransition);
+}
+
+// // Sidebar Name. description
+body.hackerTh ._1ht6, body.hackerTh ._1htf {
+    color: $green !important;
+
+    @include transition($colorTransition);
+}
+
+// Conversation text
+body.hackerTh ._hh7, body.hackerTh ._5rw4 {
+    color: $conversationText !important;
+
+    @include transition($colorTransition);
+}
+
+// Conversation text - myself
+body.hackerTh ._nd_ ._hh7 ._3oh- {
+    color: $white !important;
+
+    @include transition($colorTransition);
+}
+
+// Messenger navbar text
+body.hackerTh ._2v6o, body.hackerTh, body.hackerTh ._3tky {
+    color: $white_30 !important;
+
+    @include transition($colorTransition);
+}
+
+body.hackerTh ._2v6o, body.hackerTh, body.hackerTh ._3tky {
+    color: $white_30 !important;
+
+    @include transition($colorTransition);
+}
+
+body.hackerTh ._1p1t {
+    color: $white !important;
+
+    @include transition($colorTransition);
+}
+
+body.hackerTh ._5742, body.hackerTh ._36ic {
+    border-bottom: 1px solid $green !important;
+
+    @include transition($colorTransition);
+}
+
+//BIG DIV MESSAGE INBOX DIVIDER
+body.hackerTh ._1q5- {
+    border-left: 1px solid $green !important;
+
+    @include transition($colorTransition);
+}
+
+body.hackerTh ._4_j5 {
+    border-left: 1px solid $green !important;
+
+    @include transition($colorTransition);
+}
+
+// Type a message bar
+body.hackerTh ._1ht3, body.hackerTh ._1ht3 ._1ht6, body.hackerTh ._1ht3 ._1ht7 {
+    color: $white_70 !important;
+
+    @include transition($colorTransition);
+}
+
+body.hackerTh ._5rp8 ._45m_ {
+    color: $green !important;
+
+    @include transition($colorTransition);
+}
+
+// Type a message input field
+body.hackerTh ._4rv3 {
+    background-color: $black !important;
+    border-top: 1px solid $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+body.hackerTh ._1p1t {
+    color: $green !important;
+    opacity: 0.7;
+
+    @include transition($colorTransition);
+}
+
+//Mute notification box
+body.hackerTh ._3x6u {
+    color: $green !important;
+
+    @include transition($colorTransition);
+}
+
+//mute notification box text
+body.hackerTh .__rm + .uiInputLabelLabel, body.hackerTh ._58ak input {
+    color: $green !important;
+
+    @include transition($colorTransition);
+}
+
+body.hackerTh ._2c9g ._4ebz {
+    color: $green !important;
+
+    @include transition($colorTransition);
+}
+
+body.hackerTh ._4eby ._5ixy {
+    color: $green !important;
+
+    @include transition($colorTransition);
+}
+
+body.hackerTh ._54ng {
+    background-color: $black !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+//dropdown menu settings
+body.hackerTh ._2i-c ._54nf ._54nh {
+    color: $green !important;
+}
+
+body.hackerTh ._2i-c ._54ne {
+    background-color: $green !important;
+}
+
+body.hackerTh ._2i-c ._54ne ._54nh {
+    background-color: $green !important;
+    color: $black !important;
+}
+
+//SETTINGS
+body.hackerTh ._374c {
+    color: $green !important;
+}
+
+body.hackerTh ._2c9i ._4ebz {
+    border-bottom: 1px solid $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+body.hackerTh ._374b {
+    border-bottom: 1px solid $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+body.hackerTh ._19jt {
+    color: $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+body.hackerTh ._3quh {
+    color: $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+body.hackerTh ._374d a {
+    color: $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+body.hackerTh ._1pr_ {
+    color: $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+//right Sidebar
+
+body.hackerTh ._3tl0 {
+    color: $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+body.hackerTh .uiScrollableAreaTrack .invisible_elem {
+    color: $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+body.hackerTh ._2ds6 {
+    color: $green !important;
+    opacity: 0.7 !important;
+}
+
+//smiley emoticon
+body.hackerTh ._hh7._2f5r, body.hackerTh ._hh7:active._2f5r, body.hackerTh ._-5k ._hh7._2f5r {
+    background: none !important;
+}
+
+//delete
+body.hackerTh ._hw2 ._53ij {
+    border: 1px solid $green !important;
+}
+
+body.hackerTh ._hw4 ._hw5 {
+    color: $green !important;
+}
+
+body.hackerTh ._hw2 ._53io {
+    @include icon($dropd);
+}
+
+body.hackerTh ._4eb- {
+    color: $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+//name description
+
+body.hackerTh ._36zg, body.hackerTh ._1n-e, body.hackerTh ._1n-e {
+    color: $green !important;
+
+    @include transition($backgroundColorTransition);
+}
+
+//icons
+
+body.hackerTh ._2oc8 {
+    @include icon($imageNewMesseage);
+}
+
+body.hackerTh ._2fug {
+    @include icon($imageSettings);
+}
+
+body.hackerTh ._31tm, body.hackerTh ._31tn {
+    @include icon($imageVoiceCall);
+}
+
+body.hackerTh ._31to, body.hackerTh ._31tp {
+    @include icon($imageVideoCall);
+}
+
+body.hackerTh ._fl3 {
+    @include icon($imageInformation);
+}
+
+body.hackerTh ._4-0h {
+    @include icon($imageConversationSettings);
+
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+body.hackerTh ._4rv3 ._4rv4 ._5vn8 {
+    @include icon($imageGif);
+
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+body.hackerTh ._4rv3 ._yht {
+    @include icon($imageGif);
+}
+
+body.hackerTh ._4rv6 {
+    @include icon($imageSmiley);
+}
+
+body.hackerTh ._4rv9 {
+    @include icon($imageLike);
+}
