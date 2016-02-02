@@ -65,17 +65,18 @@ function applyStyle(style) {
    }
 }
 
+// Constructor
 // Show pageaction icon, load cookie and apply style:
 document.addEventListener('DOMContentLoaded', function() {
-  chrome.extension.sendRequest('show_page_action');
-  var defaultStyle = 'darkStyle';
-  var style = readCookie('themeSelector');
-  if (style !== null) {
-    applyStyle(style);
-  }
-  else {
-    applyStyle(defaultStyle);
-  }
+    chrome.extension.sendRequest('show_page_action');
+    var defaultStyle = 'darkStyle';
+    var style = readCookie('themeSelector');
+    if (style !== null) {
+      applyStyle(style);
+    }
+    else {
+      applyStyle(defaultStyle);
+    }
 });
 
 // Listen to messages from background script and apply style:
