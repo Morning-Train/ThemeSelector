@@ -106,3 +106,10 @@ body.blueTh ._4rv3 {
 
     @include transition($backgroundColorTransition);
 }
+
+// Small font used in events
+body.blueTh ._haj, body.blueTh ._54aq {
+    color: $mainBackground !important;
+
+    @include transition($backgroundColorTransition);
+}
