@@ -11,15 +11,10 @@ $searchBar: #0f0;
 $conversationText: #0f0;
 $black: #000;
 $green: #0f0;
-$white: #000000;
-$white_30: #0f0;
-$white_70: #0f0;
+$white: #fff;
+$white_30: rgba(255, 255, 255, 0.3);
+$white_70: rgba(255, 255, 255, 0.7);
 $messageInputField: #0f0;
-
-body.hackerTh ._nd_ ._hh7 a {
-    color: rgba(0, 0, 0, 0.5);
-    font-style: italic;
-}
 
 // Main background
 body.hackerTh ._4sp8, body.hackerTh ._4_j5, body.hackerTh ._1ht1, body.hackerTh ._5l37, body.hackerTh ._4eby,
@@ -134,20 +129,20 @@ body.hackerTh ._hh7, body.hackerTh ._5rw4 {
 
 // Conversation text - myself
 body.hackerTh ._nd_ ._hh7 ._3oh- {
-    color: $white !important;
+    color: $black !important;
 
     @include transition($colorTransition);
 }
 
 // Messenger navbar text
 body.hackerTh ._2v6o, body.hackerTh, body.hackerTh ._3tky {
-    color: $white_30 !important;
+    color: $green !important;
 
     @include transition($colorTransition);
 }
 
 body.hackerTh ._2v6o, body.hackerTh, body.hackerTh ._3tky {
-    color: $white_30 !important;
+    color: $green !important;
 
     @include transition($colorTransition);
 }
@@ -179,7 +174,7 @@ body.hackerTh ._4_j5 {
 
 // Type a message bar
 body.hackerTh ._1ht3, body.hackerTh ._1ht3 ._1ht6, body.hackerTh ._1ht3 ._1ht7 {
-    color: $white_70 !important;
+    color: $green !important;
 
     @include transition($colorTransition);
 }
@@ -391,4 +386,13 @@ body.hackerTh ._4rv6 {
 
 body.hackerTh ._4rv9 {
     @include icon($imageLike);
+}
+
+body.hackerTh ._hh7 a {
+    color: $black;
+    background-color: $green;
+}
+
+body.hackerTh ._tih {
+    background-color: $green;
 }
