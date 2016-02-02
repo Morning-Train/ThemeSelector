@@ -13,9 +13,6 @@
     "scripts": ["js/background.js"],
     "persistent": true
   },
-  "permissions": [
-      "tabs"
-  ],
   "page_action": {
   "default_popup": "popup.html"
   },
