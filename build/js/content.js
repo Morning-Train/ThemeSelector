@@ -65,23 +65,17 @@ function applyStyle(style) {
    }
 }
 
-// Load cookie and apply style:
-chrome.runtime.sendMessage({}, function() {
-  var readyStateCheckInterval = setInterval(function() {
-    if (document.readyState === 'complete') {
-      clearInterval(readyStateCheckInterval);
-
-      var defaultStyle = 'darkStyle';
-      var style = readCookie('themeSelector');
-      if (style !== null) {
-        applyStyle(style);
-      }
-      else {
-        applyStyle(defaultStyle);
-      }
-      
-    }
-  }, 10);
+// Show pageaction icon, load cookie and apply style:
+document.addEventListener('DOMContentLoaded', function() {
+  chrome.extension.sendRequest('show_page_action');
+  var defaultStyle = 'darkStyle';
+  var style = readCookie('themeSelector');
+  if (style !== null) {
+    applyStyle(style);
+  }
+  else {
+    applyStyle(defaultStyle);
+  }
 });
 
 // Listen to messages from background script and apply style:
