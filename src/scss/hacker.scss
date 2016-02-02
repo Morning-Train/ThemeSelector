@@ -69,7 +69,7 @@ body.hackerTh ._hh7:active, body.hackerTh ._-5k ._hh7 {
     @include transition($backgroundColorTransition);
 }
 
-body.hackerTh ._29_7:last-of-type ._3058._52mr:last-of-type, body.hackerTh ._29_7:last-of-type ._3058._52mr:last-of-type ._4br2, body.hackerTh ._29_7:last-of-type ._3058:last-of-type ._52mr:last-of-type, body.hackerTh ._29_7:first-of-type ._3058._52mr:first-of-type, body.hackerTh ._29_7:first-of-type ._3058._52mr:first-of-type ._mxz, body.hackerTh ._29_7:first-of-type ._3058:first-of-type ._52mr:first-of-type {
+body.hackerTh ._29_7 ._3058._52mr, body.hackerTh ._29_7 ._3058._52mr ._4br2, body.hackerTh ._29_7 ._3058 ._52mr, body.hackerTh ._29_7 ._3058._52mr, body.hackerTh ._29_7 ._3058._52mr ._mxz, body.hackerTh ._29_7 ._3058 ._52mr {
     border: 1px solid $green !important;
 
     @include transition($backgroundColorTransition);
