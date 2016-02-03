@@ -5,6 +5,11 @@ Messenger’s default colors are very bright - especially in the night. Therefor
 
 [Theme Selector in Chrome Webshop.](https://chrome.google.com/webstore/detail/facebook-messenger-theme/cghmigojnbaajmeigfphpaiepjjhcbpe)
 
+## Install
+Via Node.js
+```
+npm install
+```
 
 ## Credits
 * [Morning Train](https://morningtrain.dk/)
