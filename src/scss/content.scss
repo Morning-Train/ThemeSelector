@@ -7,21 +7,6 @@ $backgroundColorTransition: background-color 0.3s ease-in;
     transition: $transition;
 }
 
-$imageNewMesseage: background-position 0px -1036px;
-$imageSettings: background-position 0px -1069px;
-$imageVoiceCall: background-position 0px -1267px;
-$imageVideoCall: background-position 0px -1201px;
-$imageInformation: background-position 0px -1168px;
-$imageConversationSettings: background-position 0 -1433px;
-$imageGif: background-position 0 -937px;
-$imageSmiley: background-position 0 -970px;
-$imageLike: background-position 0 -838px;
-$dropd: background-position -26px -1689px;
-
-@mixin icon($backgroundPosition) {
-    background-image: url("chrome-extension://__MSG_@@extension_id__/img/Aj2Yt8zGd_T.png");
-}
-
 @import "dark";
 @import "blue";
 @import "green";

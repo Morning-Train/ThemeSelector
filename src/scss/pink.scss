@@ -6,39 +6,41 @@ $pink: #ff6eed;
 $lightPink: #ffb3f6;
 $white: #ffffff;
 
-// Main background
-body.pinkTh ._4sp8, body.pinkTh ._4_j5, body.pinkTh ._1ht1, body.pinkTh ._5l37, body.pinkTh ._4eby,
-body.pinkTh ._2y8_, body.pinkTh ._5t4c, body.pinkTh ._nd_ ._3058._15gf {
-    background-color: $white !important;
+body.pinkTh {
+    // Main background
+    ._4sp8, ._4_j5, ._1ht1, ._5l37, ._4eby,
+    ._2y8_, ._5t4c, ._nd_ ._3058._15gf {
+        background-color: $white !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Messenger Navbar
-body.pinkTh ._1ht1._1ht2, body.pinkTh ._5742, body.pinkTh ._36ic {
-    background-color: $lightPink !important;
+    // Messenger Navbar
+    ._1ht1._1ht2, ._5742, ._36ic {
+        background-color: $lightPink !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Conversation - others
-body.pinkTh ._hh7:active, body.pinkTh ._hh7, body.pinkTh ._haj, body.pinkTh ._5i_d {
-    background-color: $white !important;
-    border: 1px solid $pink;
+    // Conversation - others
+    ._hh7:active, ._hh7, ._haj, ._5i_d {
+        background-color: $white !important;
+        border: 1px solid $pink;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Conversation - myself
-body.pinkTh ._nd_ ._hh7:active, body.pinkTh ._nd_._-5k ._hh7, body.pinkTh ._nd_ ._3058 {
-    background-color: $pink !important;
+    // Conversation - myself
+    ._nd_ ._hh7:active, ._nd_._-5k ._hh7, ._nd_ ._3058 {
+        background-color: $pink !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Search bar
-body.pinkTh ._5iwm ._58al, body.pinkTh ._55sg ._kv1 input {
-    background-color: $lightPink !important;
+    // Search bar
+    ._5iwm ._58al, ._55sg ._kv1 input {
+        background-color: $lightPink !important;
 
-    @include transition($backgroundColorTransition);
+        @include transition($backgroundColorTransition);
+    }
 }

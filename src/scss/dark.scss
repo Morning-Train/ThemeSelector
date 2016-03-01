@@ -7,113 +7,127 @@ $messengerNavbar: #252525;
 $conversationOthers: #a8a8a8;
 $conversationMyself: #0077e5;
 $conversationOthersClick: #696969;
-$searchBar: #5b5b5b;
+$searchBar: #808080;
 $conversationText: #050505;
 $white: #ffffff;
 $white_30: rgba(255, 255, 255, 0.3);
 $white_70: rgba(255, 255, 255, 0.7);
 $messageInputField: rgba(95, 95, 95, 0.95);
 
-// Main background
-body.darkTh ._4sp8, body.darkTh ._4_j5, body.darkTh ._1ht1, body.darkTh ._5l37, body.darkTh ._4eby,
-body.darkTh ._2y8_, body.darkTh ._5t4c, body.darkTh ._nd_ ._3058._15gf {
-    background-color: $mainBackground !important;
+body.darkTh {
+    // Main background
+    ._4sp8, ._4_j5, ._1ht1, ._5l37, ._4eby,
+    ._2y8_, ._5t4c, ._nd_ ._3058._15gf {
+        background-color: $mainBackground !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Messenger Navbar
-body.darkTh ._1ht1._1ht2, body.darkTh ._5742, body.darkTh ._36ic {
-    background-color: $messengerNavbar !important;
+    // Messenger Navbar
+    ._1ht1._1ht2, ._5742, ._36ic {
+        background-color: $messengerNavbar !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Conversation - others
-body.darkTh ._hh7:active, body.darkTh ._hh7, body.darkTh ._haj, body.darkTh ._5i_d {
-    background-color: $conversationOthers !important;
+    // Conversation - others
+    ._hh7:active, ._hh7, ._haj, ._5i_d {
+        background-color: $conversationOthers !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Conversation - myself
-body.darkTh ._nd_ ._hh7:active, body.darkTh ._nd_._-5k ._hh7, body.darkTh ._nd_ ._3058 {
-    background-color: $conversationMyself !important;
+    // Conversation - myself
+    ._nd_ ._hh7:active, ._nd_._-5k ._hh7, ._nd_ ._3058 {
+        background-color: $conversationMyself !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Conversation others message click
-body.darkTh ._hh7:active {
-    background-color: $conversationOthersClick !important;
+    // Conversation others message click
+    ._hh7:active {
+        background-color: $conversationOthersClick !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Search bar
-body.darkTh ._5iwm ._58al, body.darkTh ._55sg ._kv1 input {
-    background-color: $searchBar !important;
+    // Search bar
+    ._5iwm ._58al, ._55sg ._kv1 input {
+        background-color: $searchBar !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// All texts
-body.darkTh ._ih3, body.darkTh ._364g, body.darkTh ._3tl0, body.darkTh ._497p, body.darkTh ._1tqi,
-body.darkTh ._5743, body.darkTh ._1ht7, ._3tkx, body.darkTh ._3tkz, body.darkTh ._kck, body.darkTh ._kcm,
-body.darkTh ._kck ._58al, body.darkTh ._3x6u, body.darkTh ._4jgs, body.darkTh ._5rh4,
-body.darkTh ._14-7 ._58ah ._58al, body.darkTh ._2y8z, body.darkTh ._10w4, body.darkTh ._4ebz,
-body.darkTh ._209g, body.darkTh ._1ht6, body.darkTh ._4rpj,
-body.darkTh ._2jnt, body.darkTh ._3eus, body.darkTh ._3oh-, body.darkTh ._2jnv, body.darkTh ._2jnx,
-body.darkTh ._2jnz, body.darkTh ._2jnx body.darkTh ._58al, body.darkTh ._llq, body.darkTh ._36zg,
-body.darkTh ._1n-e, body.darkTh ._4eb-, body.darkTh ._19jt, body.darkTh ._374c, body.darkTh ._1ps0,
-body.darkTh ._1pr_, body.darkTh .__rm + .uiInputLabelLabel, body.darkTh ._58ak input {
-    color: $conversationOthers !important;
+    // All texts
+    ._ih3, ._364g, ._3tl0, ._497p, ._1tqi,
+    ._5743, ._1ht7, ._3tkx, ._3tkz, ._kck, ._kcm,
+    ._kck ._58al, ._3x6u, ._4jgs, ._5rh4,
+    ._14-7 ._58ah ._58al, ._2y8z, ._10w4, ._4ebz,
+    ._209g, ._1ht6, ._4rpj,
+    ._2jnt, ._3eus, ._3oh-, ._2jnv, ._2jnx,
+    ._2jnz, ._2jnx ._58al, ._llq, ._36zg,
+    ._1n-e, ._4eb-, ._19jt, ._374c, ._1ps0,
+    ._1pr_, .__rm + .uiInputLabelLabel {
+        color: $conversationOthers !important;
 
-    @include transition($colorTransition);
-}
+        @include transition($colorTransition);
+    }
 
-// Conversation text
-body.darkTh ._hh7 ._3oh-, body.darkTh ._5rw4 {
-    color: $conversationText !important;
+    // Conversation text
+    ._hh7 ._3oh-, ._5rw4 {
+        color: $conversationText !important;
 
-    @include transition($colorTransition);
-}
+        @include transition($colorTransition);
+    }
 
-// Conversation text - myself
-body.darkTh ._nd_ ._hh7 ._3oh- {
-    color: $white !important;
+    // Conversation text - myself
+    ._nd_ ._hh7 ._3oh- {
+        color: $white !important;
 
-    @include transition($colorTransition);
-}
+        @include transition($colorTransition);
+    }
 
-// Messenger navbar text
-body.darkTh ._2v6o, body.darkTh ._1htf, body.darkTh ._3tky {
-    color: $white_30 !important;
+    // Messenger navbar text
+    ._2v6o, ._1htf, ._3tky {
+        color: $white_30 !important;
 
-    @include transition($colorTransition);
-}
+        @include transition($colorTransition);
+    }
 
-// Type a message bar
-body.darkTh ._1ht3 ._1htf, body.darkTh ._1ht3 ._1ht6, body.darkTh ._1ht3 ._1ht7, body.darkTh ._5rp8 ._45m_ {
-    color: $white_70 !important;
+    // Type a message bar
+    ._1ht3 ._1htf, ._1ht3 ._1ht6, ._1ht3 ._1ht7, ._5rp8 ._45m_ {
+        color: $white_70 !important;
 
-    @include transition($colorTransition);
-}
+        @include transition($colorTransition);
+    }
 
-// Type a message input field
-body.darkTh ._4rv3 {
-    background-color: $messageInputField !important;
+    // Type a message input field
+    ._4rv3 {
+        background-color: $messageInputField !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Small font used in events
-body.darkTh ._haj, body.darkTh ._54aq {
-    color: $mainBackground !important;
+    // Small font used in events
+    ._haj, ._54aq {
+        color: $mainBackground !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-body.darkTh ._5rp8 ._1mf {
-    color: #fff !important;
+    ._5rp8 ._1mf {
+        color: $white !important;
+    }
+
+    ._3szq, ._1lj0 {
+        color: $white_70 !important;
+    }
+
+    ._1li_ a {
+        color: $conversationMyself !important;
+    }
+
+    ._4g0h, ._3xcx, ._225b, ._364g, ._58ak input {
+        color: $white_70 !important;
+    }
 }

@@ -14,106 +14,120 @@ $white_30: rgba(255, 255, 255, 0.3);
 $white_70: rgba(255, 255, 255, 0.7);
 $messageInputField: rgba(11, 95, 12, 0.95);
 
-// Main background
-body.greenTh ._4sp8, body.greenTh ._4_j5, body.greenTh ._1ht1, body.greenTh ._5l37, body.greenTh ._4eby,
-body.greenTh ._2y8_, body.greenTh ._5t4c, body.greenTh ._nd_ ._3058._15gf {
-    background-color: $mainBackground !important;
+body.greenTh {
+    // Main background
+    ._4sp8, ._4_j5, ._1ht1, ._5l37, ._4eby,
+    ._2y8_, ._5t4c, ._nd_ ._3058._15gf {
+        background-color: $mainBackground !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Messenger Navbar
-body.greenTh ._1ht1._1ht2, body.greenTh ._5742, body.greenTh ._36ic {
-    background-color: $messengerNavbar !important;
+    // Messenger Navbar
+    ._1ht1._1ht2, ._5742, ._36ic {
+        background-color: $messengerNavbar !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Conversation - others
-body.greenTh ._hh7:active, body.greenTh ._hh7, body.greenTh ._haj, body.greenTh ._5i_d {
-    background-color: $conversationOthers !important;
+    // Conversation - others
+    ._hh7:active, ._hh7, ._haj, ._5i_d {
+        background-color: $conversationOthers !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Conversation - myself
-body.greenTh ._nd_ ._hh7:active, body.greenTh ._nd_._-5k ._hh7, body.greenTh ._nd_ ._3058 {
-    background-color: $conversationMyself !important;
+    // Conversation - myself
+    ._nd_ ._hh7:active, ._nd_._-5k ._hh7, ._nd_ ._3058 {
+        background-color: $conversationMyself !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Conversation others message click
-body.greenTh ._hh7:active {
-    background-color: $conversationOthersClick !important;
+    // Conversation others message click
+    ._hh7:active {
+        background-color: $conversationOthersClick !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Search bar
-body.greenTh ._5iwm ._58al, body.greenTh ._55sg ._kv1 input {
-    background-color: $searchBar !important;
+    // Search bar
+    ._5iwm ._58al, ._55sg ._kv1 input {
+        background-color: $searchBar !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// All texts
-body.greenTh ._ih3, body.greenTh ._364g, body.greenTh ._3tl0, body.greenTh ._497p, body.greenTh ._1tqi,
-body.greenTh ._5743, body.greenTh ._1ht7, ._3tkx, body.greenTh ._3tkz, body.greenTh ._kck, body.greenTh ._kcm,
-body.greenTh ._kck ._58al, body.greenTh ._3x6u, body.greenTh ._4jgs, body.greenTh ._5rh4,
-body.greenTh ._14-7 ._58ah ._58al, body.greenTh ._2y8z, body.greenTh ._10w4, body.greenTh ._4ebz,
-body.greenTh ._209g, body.greenTh ._1ht6, body.greenTh ._4rpj,
-body.greenTh ._2jnt, body.greenTh ._3eus, body.greenTh ._3oh-, body.greenTh ._2jnv, body.greenTh ._2jnx,
-body.greenTh ._2jnz, body.greenTh ._2jnx body.greenTh ._58al, body.greenTh ._llq, body.greenTh ._36zg,
-body.greenTh ._1n-e, body.greenTh ._4eb-, body.greenTh ._19jt, body.greenTh ._374c, body.greenTh ._1ps0,
-body.greenTh ._1pr_, body.greenTh .__rm + .uiInputLabelLabel, body.greenTh ._58ak input {
-    color: $conversationOthers !important;
+    // All texts
+    ._ih3, ._364g, ._3tl0, ._497p, ._1tqi,
+    ._5743, ._1ht7, ._3tkx, ._3tkz, ._kck, ._kcm,
+    ._kck ._58al, ._3x6u, ._4jgs, ._5rh4,
+    ._14-7 ._58ah ._58al, ._2y8z, ._10w4, ._4ebz,
+    ._209g, ._1ht6, ._4rpj,
+    ._2jnt, ._3eus, ._3oh-, ._2jnv, ._2jnx,
+    ._2jnz, ._2jnx ._58al, ._llq, ._36zg,
+    ._1n-e, ._4eb-, ._19jt, ._374c, ._1ps0,
+    ._1pr_, .__rm + .uiInputLabelLabel {
+        color: $conversationOthers !important;
 
-    @include transition($colorTransition);
-}
+        @include transition($colorTransition);
+    }
 
-// Conversation text
-body.greenTh ._hh7 ._3oh-, body.greenTh ._5rw4 {
-    color: $conversationText !important;
+    // Conversation text
+    ._hh7 ._3oh-, ._5rw4 {
+        color: $conversationText !important;
 
-    @include transition($colorTransition);
-}
+        @include transition($colorTransition);
+    }
 
-// Conversation text - myself
-body.greenTh ._nd_ ._hh7 ._3oh- {
-    color: $white !important;
+    // Conversation text - myself
+    ._nd_ ._hh7 ._3oh- {
+        color: $white !important;
 
-    @include transition($colorTransition);
-}
+        @include transition($colorTransition);
+    }
 
-// Messenger navbar text
-body.greenTh ._2v6o, body.greenTh ._1htf, body.greenTh ._3tky {
-    color: $white_30 !important;
+    // Messenger navbar text
+    ._2v6o, ._1htf, ._3tky {
+        color: $white_30 !important;
 
-    @include transition($colorTransition);
-}
+        @include transition($colorTransition);
+    }
 
-// Type a message bar
-body.greenTh ._1ht3 ._1htf, body.greenTh ._1ht3 ._1ht6, body.greenTh ._1ht3 ._1ht7, body.greenTh ._5rp8 ._45m_ {
-    color: $white_70 !important;
+    // Type a message bar
+    ._1ht3 ._1htf, ._1ht3 ._1ht6, ._1ht3 ._1ht7, ._5rp8 ._45m_ {
+        color: $white_70 !important;
 
-    @include transition($colorTransition);
-}
+        @include transition($colorTransition);
+    }
 
-// Type a message input field
-body.greenTh ._4rv3 {
-    background-color: $messageInputField !important;
+    // Type a message input field
+    ._4rv3 {
+        background-color: $messageInputField !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-// Small font used in events
-body.greenTh ._haj, body.greenTh ._54aq {
-    color: $mainBackground !important;
+    // Small font used in events
+    ._haj, ._54aq {
+        color: $mainBackground !important;
 
-    @include transition($backgroundColorTransition);
-}
+        @include transition($backgroundColorTransition);
+    }
 
-body.greenTh ._5rp8 ._1mf {
-    color: #fff !important;
+    ._5rp8 ._1mf {
+        color: $white !important;
+    }
+
+    ._3szq, ._1lj0 {
+        color: $white_70 !important;
+    }
+
+    ._1li_ a {
+        color: $conversationMyself !important;
+    }
+
+    ._4g0h, ._3xcx, ._225b, ._364g, ._58ak input {
+        color: $white_70 !important;
+    }
 }
