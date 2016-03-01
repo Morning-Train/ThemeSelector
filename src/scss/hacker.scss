@@ -99,10 +99,10 @@ body.hackerTh {
     ._kck ._58al, ._4jgs, ._5rh4,
     ._14-7 ._58ah ._58al, ._2y8z, ._10w4,
     ._209g, ._4rpj,
-    ._2jnt, ._3eus, ._2jnv, ._2jnx,
+    ._3eus, ._2jnx,
     ._2jnz, ._2jnx ._58al, ._llq, ._36zg,
     ._1n-e, ._4eb-, ._19jt, ._374c, ._1ps0,
-    ._1pr_, .__rm + .uiInputLabelLabel, ._58ak input {
+    ._1pr_, .__rm + .uiInputLabelLabel, {
         color: $conversationOthers !important;
 
         @include transition($colorTransition);
@@ -211,7 +211,7 @@ body.hackerTh {
 
     //mute notification box text
     .__rm + .uiInputLabelLabel, ._58ak input {
-        color: $green !important;
+        color: $black !important;
 
         @include transition($colorTransition);
     }
@@ -354,6 +354,10 @@ body.hackerTh {
     }
 
     ._4g0h, ._3xcx, ._225b, ._364g {
+        color: $green !important;
+    }
+
+    ._2jnv {
         color: $green !important;
     }
 }
