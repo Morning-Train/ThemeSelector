@@ -37,23 +37,23 @@ function applyStyle(style) {
     if (style === 'blueStyle') {
         clearAllStyles();
         document.querySelector('body').classList.add('blueTh');
-        createCookie('themeSelector', 'blueStyle');
+        createCookie('themeSelector', 'blueStyle', 365);
     } else if (style === 'darkStyle') {
         clearAllStyles();
         document.querySelector('body').classList.add('darkTh');
-        createCookie('themeSelector', 'darkStyle');
+        createCookie('themeSelector', 'darkStyle', 365);
     } else if (style === 'greenStyle') {
         clearAllStyles();
         document.querySelector('body').classList.add('greenTh');
-        createCookie('themeSelector', 'greenStyle');
+        createCookie('themeSelector', 'greenStyle', 365);
     } else if (style === 'pinkStyle') {
         clearAllStyles();
         document.querySelector('body').classList.add('pinkTh');
-        createCookie('themeSelector', 'pinkStyle');
+        createCookie('themeSelector', 'pinkStyle', 365);
     } else if (style === 'hackerStyle') {
         clearAllStyles();
         document.querySelector('body').classList.add('hackerTh');
-        createCookie('themeSelector', 'hackerStyle');
+        createCookie('themeSelector', 'hackerStyle', 365);
     } else if (style === 'resetStyle') {
         clearAllStyles();
         eraseCookie('themeSelector');
