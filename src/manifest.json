@@ -1,9 +1,9 @@
 {
   "name": "Messenger - Theme Selector",
-  "version": "1.5",
+  "version": "1.6",
   "manifest_version": 2,
   "description": "A theme selector for Facebook's Messenger (messenger.com) with multiple awesome looking themes!",
-  "homepage_url": "http://morningtrain.dk",
+  "homepage_url": "https://morningtrain.dk",
   "icons": {
     "16": "img/icon16.png",
     "48": "img/icon48.png",
@@ -32,6 +32,5 @@
   ],
   "web_accessible_resources": [
     "img/Aj2Yt8zGd_T.png"
- ],
- "homepage_url": "http://morningtrain.dk"
+ ]
 }

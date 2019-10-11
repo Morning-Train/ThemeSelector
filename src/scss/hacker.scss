@@ -27,7 +27,8 @@ body.hackerTh {
     }
 
     // Messenger Navbar
-    ._5742, ._36ic {
+    ._5742, ._36ic,
+    ._5irm._7mkm {
         background-color: $messengerNavbar !important;
 
         @include transition($backgroundColorTransition);
@@ -359,5 +360,10 @@ body.hackerTh {
 
     ._2jnv {
         color: $green !important;
+    }
+
+    ._kmc._7kpg ._1p1t {
+        color: rgba(255, 255, 255, 0.5) !important;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0.5) !important;
     }
 }

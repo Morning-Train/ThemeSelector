@@ -24,7 +24,8 @@ body.greenTh {
     }
 
     // Messenger Navbar
-    ._1ht1._1ht2, ._5742, ._36ic {
+    ._1ht1._1ht2, ._5742, ._36ic,
+    ._5irm._7mkm {
         background-color: $messengerNavbar !important;
 
         @include transition($backgroundColorTransition);
@@ -129,5 +130,10 @@ body.greenTh {
 
     ._4g0h, ._3xcx, ._225b, ._364g, ._58ak input {
         color: $white_70 !important;
+    }
+
+    ._kmc._7kpg ._1p1t {
+        color: rgba(255, 255, 255, 0.5) !important;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0.5) !important;
     }
 }
