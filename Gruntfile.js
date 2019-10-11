@@ -1,5 +1,8 @@
 module.exports = function(grunt) {
     require('jit-grunt')(grunt);
+
+    var sass = require('node-sass');
+
     grunt.registerTask('default', ['build']);
     grunt.registerTask('dev', ['build', 'concurrent']);
 
@@ -72,6 +75,7 @@ module.exports = function(grunt) {
 
         sass: {
             options: {
+                implementation: sass,
                 outputStyle: 'compressed'
             },
             dist: {
